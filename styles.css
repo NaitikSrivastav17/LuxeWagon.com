@@ -1,0 +1,239 @@
+body{
+    font-family: "Montserrat", sans-serif;
+  font-weight:500;
+  font-style: normal;
+  color:white;
+  background: rgb(0, 0, 0);
+  background:radial-gradient(black,rgb(69, 67, 67),rgb(65, 63, 63));
+
+  /*background-repeat: no-repeat;
+  background-attachment:local;
+  background-size: cover;*/
+ 
+
+}
+.logo{
+    position:absolute;
+    right:20px;
+
+}
+.navbar{
+    align-content: center;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    align-items: center;
+    background:rgb(50, 48, 48);
+    width:100vw;
+    padding:5px 60px;
+    animation:fadebig 1.5s;
+
+    
+
+}
+@keyframes radial{
+    to{
+        background-position: 200%;
+    }
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap:5vw;
+    margin-right:2vw;
+    
+}
+.li1:hover{
+    font-weight:500;
+    font-style: normal;
+    background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+    background-size: 200%;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: animate-gradient 1s linear infinite;
+   transition:all 0.7s;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+
+}
+.head1{
+    text-align:center;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size:50px;
+    animation:fadebig 3s;
+    
+    
+}
+.head2{
+    text-align:center;
+    font-family: "Montserrat", sans-serif;
+    font-weight:normal;
+    font-style: normal;
+    font-size:20px;
+    animation:fadebig 4.5s;
+    word-spacing: 15px;
+ 
+   
+}
+.lambo{
+    height:40vh;
+    width:60vh;
+    cursor:pointer;
+    animation:fadebig 6s;
+    
+
+}
+.lambodiv{
+    display:flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes fade{
+    from{opacity:0;}
+    to{opacity:1;}
+    
+}
+@keyframes fadebig{
+    from{opacity:0;
+    scale:0.75}
+    to{opacity:1;scale:1;}
+}
+.head3{
+    text-align:center;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size:40px;
+    animation:fade 6s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 100%;
+}
+.head4{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight:normal;
+    font-style: normal;
+    font-size:20px;
+    animation:fade 6s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 90%;
+    word-spacing: 15px;
+}
+.lambo2{
+    height:40vh;
+    width:50vh;
+    cursor:pointer;
+    animation:fade 9s;
+    float:left;
+    animation:fade 6s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 90%;
+    cursor:pointer;
+
+
+}
+footer{
+    position:static;
+    bottom:0px;
+    text-align:center;
+    animation:fade 6s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 90%;
+}
+.head5{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight:normal;
+    font-style: normal;
+    font-size:20px;
+    animation:fade 6s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 90%;
+    word-spacing: 15px;
+}
+.lambo3{
+    position: relative;
+    
+    height:40vh;
+    width:50vh;
+    cursor:pointer;
+    float:right;
+    animation:fade 6s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 90%;
+
+
+}
+.headn{
+    text-align:left;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size:40px;
+    animation:fade 6s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 50%;
+}
+.lambo4{
+    height:40vh;
+    width:50vh;
+    cursor:pointer;
+    animation:fade 9s;
+    float:left;
+    animation:fade 6s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 90%;
+    cursor:pointer;
+}
+.head0{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size:3em;
+    background: radial-gradient(white,rgb(96, 96, 96),aliceblue),silver;
+    font-family:"Montserrat", sans-serif;
+   word-spacing: 8px;
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 1.5s linear infinite;
+   cursor:pointer;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+.div0{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lastlambo{
+    height:60vh;
+    width:80vh;
+    cursor:pointer;
+    animation:fadessmall 10s;
+    animation-timeline: view();
+    animation-range:entry 0 cover 70%;
+}
+@keyframes fadessmall{
+    from{opacity:0;
+    scale:0.1}
+    to{opacity:1;scale:1;}
+}
