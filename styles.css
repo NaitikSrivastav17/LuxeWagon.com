@@ -91,8 +91,12 @@ body{
    
 }
 .lambo{
-    height:40vh;
-    width:60vh;
+     min-height:35vh;
+    max-height:40vh;
+    min-width:450px;
+    max-width: 50vw;
+    height:auto;
+    width:auto;
     cursor:pointer;
     animation:fadebig 6s;
     
@@ -136,8 +140,12 @@ body{
     word-spacing: 15px;
 }
 .lambo2{
-    height:40vh;
-    width:50vh;
+    min-height:35vh;
+    max-height:40vh;
+    min-width:450px;
+    max-width: 50vw;
+    height:auto;
+    width:auto;
     cursor:pointer;
     animation:fade 9s;
     float:left;
@@ -169,9 +177,12 @@ footer{
 }
 .lambo3{
     position: relative;
-    
-    height:40vh;
-    width:50vh;
+   min-height:35vh;
+    max-height:40vh;
+    min-width:450px;
+    max-width: 50vw;
+    height:auto;
+    width:auto;
     cursor:pointer;
     float:right;
     animation:fade 6s;
@@ -191,8 +202,12 @@ footer{
     animation-range:entry 0 cover 50%;
 }
 .lambo4{
-    height:40vh;
-    width:50vh;
+    min-height:35vh;
+    max-height:40vh;
+    min-width:450px;
+    max-width: 50vw;
+    height:auto;
+    width:auto;
     cursor:pointer;
     animation:fade 9s;
     float:left;
@@ -229,8 +244,12 @@ footer{
     align-items: center;
 }
 .lastlambo{
-    height:60vh;
-    width:80vh;
+    min-height:45vh;
+    max-height:50vh;
+    min-width:40vw;
+    max-width:600px;
+    height:auto;
+    width:auto;
     cursor:pointer;
     animation:fadessmall 10s;
     animation-timeline: view();
