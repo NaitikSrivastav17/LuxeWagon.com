@@ -24,8 +24,9 @@ body{
     text-align: center;
     align-items: center;
     background:rgb(50, 48, 48);
-    width:100vw;
-    padding:5px 60px;
+     max-width:1200px;
+    min-width:100vw;
+    padding:5px 10px;
     animation:fadebig 1.5s;
 
     
